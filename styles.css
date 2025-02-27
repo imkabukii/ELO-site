@@ -1,0 +1,90 @@
+body {
+    background-color: #BDE6FF;
+    margin: 0; /* Removes default margin */
+}
+
+#box1 {
+    text-align: left; /* Aligns the top text to the left */
+    background-color: darkblue;
+    padding: 40px 30px; /* More padding around the header text */
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Keeps items aligned at the top */
+    gap: 20px; /* Space between image and text */
+    margin: 40px auto; /* Vertical margin for more space above and below */
+    padding: 30px; /* Padding around the image and text */
+    max-width: 1000px; /* More controlled max-width for the entire container */
+    width: 90%; /* Responsive width */
+    margin-left: 20px;
+}
+
+.container img {
+    width: 300px;
+    height: auto;
+    border: 3px solid black;
+    margin-left: 0;
+}
+
+.text-content {
+    max-width: 500px; /* Limits the width of the text container */
+    margin-top: 0;
+    flex-grow: 1; /* Ensures the text box grows as needed */
+    padding-right: 20px; /* Padding to the right for spacing */
+}
+
+#what-elo-means {
+    background-color: #88D1FF;
+    padding: 20px;
+}
+
+.header {
+    margin-left: 30px;
+}
+
+.text {
+    margin-left: 30px;
+    max-width: 550px;
+}
+
+.album-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.album-list li {
+    display: block; /* Make each list item a block element again */
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.album-list a {
+    display: block; /* Ensure the links are block-level elements */
+    margin-bottom: 5px; /* Adds space between the link and image */
+    font-size: 1.2em; /* Ensure the font size is consistent */
+    font-weight: bold; /* Maintain the bold styling */
+}
+
+
+.album-list img {
+    display: inline-block; /* Keeps the image as inline, so it's aligned with the paragraph */
+    margin-right: 20px; /* Adds space between the image and the paragraph */
+    vertical-align: top; /* Aligns the image to the top */
+}
+
+.album-list p {
+    display: inline-block; /* Ensures the paragraph stays next to the image */
+    max-width: 600px; /* Optional: limit the width of the paragraph */
+}
+
+
+.album-list a:hover {
+    color: #5c6dcf;
+}
+
+
+.album-header {
+    margin-left: 50px;
+}
